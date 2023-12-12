@@ -1,0 +1,60 @@
+.head-title{
+	color: #FFF;
+
+	/* Headings/Text XXL */
+	font-family: Manrope;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 72px; /* 150% */
+}
+
+.desc{
+	color: #F1F1F1;
+/* Paragraphs/Text XS */
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+.buttonOne{
+	padding: 16px 56px;
+	border-radius: 56px;
+	border: 2px solid #69E6A6;
+	background: #65E4A3;
+	color: var(--Dark-Blue, #0A2640);
+	font-family: Open Sans;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px; /* 140% */
+}
+
+.buttonTwo{
+	padding: 16px 56px;
+	border-radius: 56px;
+	border: 2px solid #FFF;
+	color: #FFF;
+	font-family: Open Sans;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px; /* 140% */
+}
+
+@media screen and (max-width: 992px){
+	.buttonOne,.buttonTwo{
+		padding: 12px 24px;
+		font-size: 16px;
+	}
+	.head-title{
+		font-size: 36px;
+		line-height: normal; /* 150% */
+	}
+	.desc{
+		font-size: 14px;
+		line-height: normal;
+	}
+}

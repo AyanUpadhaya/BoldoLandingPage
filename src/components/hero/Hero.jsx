@@ -6,7 +6,7 @@ const Hero =()=>{
 
 			<div className="flex flex-col md:flex-row gap-y-6 justify-between items-center mb-[56px]">
 				{/*left*/}
-				<div className="flex-1 max-w-full md:max-w-[567px] px-4 lg::px-0">
+				<div className="flex-1 max-w-full md:max-w-[567px] px-4 lg:px-0">
 					<h2 className="head-title mb-4">
 						Save time by building  fast with Boldo Template 
 					</h2>
@@ -26,7 +26,7 @@ const Hero =()=>{
 				
 				{/*right*/}
 				<div>
-					<div className="grid grid-flow-row grid-cols-1 md:grid-cols-2  gap-y-6  px-4 lg::px-0">
+					<div className="grid grid-flow-row grid-cols-1 md:grid-cols-2  gap-y-6  px-4 lg:px-0">
 
 						<div className= "md:col-span-2">
 							<img src={frameOne} alt="" className="w-full" />

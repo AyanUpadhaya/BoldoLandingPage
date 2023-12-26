@@ -1,5 +1,6 @@
+import { bottomRectangle, frameOne, frameThree, frameTwo, logo, presto } from "../../../assets/getAssets";
 import "./Hero.css"
-import {frameOne,frameTwo,frameThree,bottomRectangle,logo,presto} from "../../assets/getAssets.jsx";
+
 const Hero =()=>{
 	return(
 		<div className="max-w-[1200px] relative z-[100] mx-auto ">

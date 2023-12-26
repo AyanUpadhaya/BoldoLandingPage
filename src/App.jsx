@@ -1,10 +1,11 @@
-import Header from "./components/header/Header"
+import { RouterProvider } from "react-router-dom";
+
+import { router } from "./routes/routes";
 
 const App = ()=>{
-	 return (
+ return (
     <>
-    <Header></Header>
-      
+    <RouterProvider router={router}></RouterProvider>
     </>
   )
 }

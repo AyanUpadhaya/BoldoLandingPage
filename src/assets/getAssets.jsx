@@ -7,6 +7,10 @@ import presto from "./images/presto.png";
 import coolfeature from "./images/coolfeature.png";
 import coolfeatureTwo from "./images/coolfeatureTwo.png";
 import evencooler from"./images/evencooler.png"
+import calling from"./images/calling.png"
+import chart from "./images/chart.png"
+import women from "./images/women.png"
+import chartTwo from "./images/chartTwo.png"
 export {
 	logo,
 	frameOne,
@@ -16,5 +20,9 @@ export {
 	presto,
 	coolfeature,
 	evencooler,
-	coolfeatureTwo
+	coolfeatureTwo,
+	calling,
+	chart,
+	women,
+	chartTwo
 }

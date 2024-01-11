@@ -4,11 +4,17 @@ import frameTwo from "./images/frameTwo.png";
 import frameThree from "./images/frameThree.png";
 import bottomRectangle from "./images/bottom-rectangle.png";
 import presto from "./images/presto.png";
+import coolfeature from "./images/coolfeature.png";
+import coolfeatureTwo from "./images/coolfeatureTwo.png";
+import evencooler from"./images/evencooler.png"
 export {
 	logo,
 	frameOne,
 	frameTwo,
 	frameThree,
 	bottomRectangle,
-	presto
+	presto,
+	coolfeature,
+	evencooler,
+	coolfeatureTwo
 }

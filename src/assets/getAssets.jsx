@@ -11,6 +11,9 @@ import calling from"./images/calling.png"
 import chart from "./images/chart.png"
 import women from "./images/women.png"
 import chartTwo from "./images/chartTwo.png"
+import card_one from "./images/card_one.png"
+import card_two from "./images/card_two.png"
+import card_three from "./images/card_three.png"
 export {
 	logo,
 	frameOne,
@@ -24,5 +27,9 @@ export {
 	calling,
 	chart,
 	women,
-	chartTwo
+	chartTwo,
+	card_one,
+	card_two,
+	card_three
+
 }

@@ -36,9 +36,9 @@ const ConnectSection = () => {
                     <path
                       d="M20 6L9 17L4 12"
                       stroke="white"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 </span>
@@ -60,9 +60,9 @@ const ConnectSection = () => {
                     <path
                       d="M20 6L9 17L4 12"
                       stroke="white"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 </span>
@@ -84,9 +84,9 @@ const ConnectSection = () => {
                     <path
                       d="M20 6L9 17L4 12"
                       stroke="white"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 </span>
@@ -126,71 +126,176 @@ const ConnectSection = () => {
           </h2>
 
           <div className="flex flex-col items-start gap-y-6">
-            
             <div className="w-[500px] rounded flex gap-x-[27px] bg-primaryBg text-white p-[24px] shadow-shadowConnect ">
               <div className=" flex justify-center items-center">
                 <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-  <path d="M20.24 12.24C21.3658 11.1142 21.9983 9.58719 21.9983 7.99501C21.9983 6.40282 21.3658 4.87585 20.24 3.75001C19.1142 2.62416 17.5872 1.99167 15.995 1.99167C14.4028 1.99167 12.8758 2.62416 11.75 3.75001L5 10.5V19H13.5L20.24 12.24Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M16 8L2 22" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M17.5 15H9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M20.24 12.24C21.3658 11.1142 21.9983 9.58719 21.9983 7.99501C21.9983 6.40282 21.3658 4.87585 20.24 3.75001C19.1142 2.62416 17.5872 1.99167 15.995 1.99167C14.4028 1.99167 12.8758 2.62416 11.75 3.75001L5 10.5V19H13.5L20.24 12.24Z"
+                      stroke="white"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M16 8L2 22"
+                      stroke="white"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M17.5 15H9"
+                      stroke="white"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
                 </span>
               </div>
               <h4 className="text-base font-openSans text-white font-semibold">
                 We connect our customers with the best.
               </h4>
             </div>
-            
+
             <div className="w-[500px] rounded flex gap-x-[27px] text-white p-[24px] shadow-shadowConnect ">
               <div className=" flex justify-center items-center">
                 <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-  <g clip-path="url(#clip0_0_515)">
-    <path d="M1.7749 12.6543C1.7749 12.6543 5.7749 4.6543 12.7749 4.6543C19.7749 4.6543 23.7749 12.6543 23.7749 12.6543C23.7749 12.6543 19.7749 20.6543 12.7749 20.6543C5.7749 20.6543 1.7749 12.6543 1.7749 12.6543Z" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M12.7749 15.6543C14.4318 15.6543 15.7749 14.3112 15.7749 12.6543C15.7749 10.9974 14.4318 9.6543 12.7749 9.6543C11.118 9.6543 9.7749 10.9974 9.7749 12.6543C9.7749 14.3112 11.118 15.6543 12.7749 15.6543Z" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
-  <defs>
-    <clipPath id="clip0_0_515">
-      <rect width="24" height="24" fill="white" transform="translate(0.774902 0.654297)"/>
-    </clipPath>
-  </defs>
-</svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_0_515)">
+                      <path
+                        d="M1.7749 12.6543C1.7749 12.6543 5.7749 4.6543 12.7749 4.6543C19.7749 4.6543 23.7749 12.6543 23.7749 12.6543C23.7749 12.6543 19.7749 20.6543 12.7749 20.6543C5.7749 20.6543 1.7749 12.6543 1.7749 12.6543Z"
+                        stroke="#0A2640"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M12.7749 15.6543C14.4318 15.6543 15.7749 14.3112 15.7749 12.6543C15.7749 10.9974 14.4318 9.6543 12.7749 9.6543C11.118 9.6543 9.7749 10.9974 9.7749 12.6543C9.7749 14.3112 11.118 15.6543 12.7749 15.6543Z"
+                        stroke="#0A2640"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_0_515">
+                        <rect
+                          width="24"
+                          height="24"
+                          fill="white"
+                          transform="translate(0.774902 0.654297)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
                 </span>
               </div>
               <h4 className="text-base font-openSans text-pureblack font-semibold">
-              Advisor success customer launch party.
+                Advisor success customer launch party.
               </h4>
             </div>
 
             <div className="w-[500px] rounded flex gap-x-[27px]  text-white p-[24px] shadow-shadowConnect ">
               <div className=" flex justify-center items-center">
                 <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-  <g clip-path="url(#clip0_0_521)">
-    <path d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M12 1V3" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M12 21V23" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M4.22021 4.22L5.64021 5.64" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M18.3601 18.36L19.7801 19.78" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M1 12H3" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M21 12H23" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M4.22021 19.78L5.64021 18.36" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M18.3601 5.64L19.7801 4.22" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
-  <defs>
-    <clipPath id="clip0_0_521">
-      <rect width="24" height="24" fill="white"/>
-    </clipPath>
-  </defs>
-</svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_0_521)">
+                      <path
+                        d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z"
+                        stroke="#0A2640"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M12 1V3"
+                        stroke="#0A2640"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M12 21V23"
+                        stroke="#0A2640"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M4.22021 4.22L5.64021 5.64"
+                        stroke="#0A2640"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M18.3601 18.36L19.7801 19.78"
+                        stroke="#0A2640"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M1 12H3"
+                        stroke="#0A2640"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M21 12H23"
+                        stroke="#0A2640"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M4.22021 19.78L5.64021 18.36"
+                        stroke="#0A2640"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M18.3601 5.64L19.7801 4.22"
+                        stroke="#0A2640"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_0_521">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
                 </span>
               </div>
               <h4 className="text-base font-openSans text-pureblack font-semibold">
                 We connect our customers with the best.
               </h4>
             </div>
-          
           </div>
         </div>
       </div>

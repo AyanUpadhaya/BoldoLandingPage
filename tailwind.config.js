@@ -21,7 +21,8 @@ export default {
         'manrope':['Manrope', 'sans-serif'],
       },
       boxShadow:{
-        shadowConnect:'0px 4px 32px 0px rgba(0, 0, 0, 0.08)'
+        shadowConnect:'0px 4px 32px 0px rgba(0, 0, 0, 0.08)',
+        enterPriseCardShadow:'0px 12px 32px 0px rgba(0, 0, 0, 0.12)',
       }
     
     },

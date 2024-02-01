@@ -1,0 +1,6 @@
+.cta-bg{
+    background-image: url('../../../assets/images/cta.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

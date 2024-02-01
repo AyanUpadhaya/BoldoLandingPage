@@ -14,6 +14,11 @@ import chartTwo from "./images/chartTwo.png"
 import card_one from "./images/card_one.png"
 import card_two from "./images/card_two.png"
 import card_three from "./images/card_three.png"
+import weconnect from "./images/weconnect.png"
+import blogone from "./images/blogone.png"
+import blogtwo from "./images/blogtwo.png"
+import blogthree from "./images/blogthree.png"
+import cta from "./images/cta.png"
 export {
 	logo,
 	frameOne,
@@ -30,6 +35,11 @@ export {
 	chartTwo,
 	card_one,
 	card_two,
-	card_three
+	card_three,
+	weconnect,
+	blogone,
+	blogtwo,
+	blogthree,
+	cta
 
 }

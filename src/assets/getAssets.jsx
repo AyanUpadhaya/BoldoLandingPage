@@ -19,6 +19,7 @@ import blogone from "./images/blogone.png"
 import blogtwo from "./images/blogtwo.png"
 import blogthree from "./images/blogthree.png"
 import cta from "./images/cta.png"
+import logodark from "./images/logodark.png"
 export {
 	logo,
 	frameOne,
@@ -40,6 +41,7 @@ export {
 	blogone,
 	blogtwo,
 	blogthree,
-	cta
+	cta,
+	logodark
 
 }

@@ -84,7 +84,7 @@ const WeConnect = () => {
               />
               <div className="collapse-title text-base font-semibold text-black-900 flex justify-between items-center gap-6 cursor-pointer p-0 m-0">
               <h4 className="text-base font-manrope text-black font-normal">
-                We connect our customers with the best.
+                Android research & development rockstar? 
               </h4>
                 
                 

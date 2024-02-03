@@ -44,6 +44,18 @@ line-height: 28px; /* 175% */
 	line-height: 28px; /* 140% */
 }
 
+
+.buttonOne,
+.buttonTwo {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.buttonOne:active,
+.buttonTwo:active {
+    transform: scale(0.95); /* Adjust the scale factor as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the box shadow as needed */
+}
+
 @media screen and (max-width: 992px){
 	.buttonOne,.buttonTwo{
 		padding: 12px 24px;

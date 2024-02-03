@@ -7,7 +7,7 @@ const CallToAction = () => {
         </h2>
         <div className='flex flex-col lg:flex-row gap-4 justify-center items-center mt-[48px]'>
             <input type="email" placeholder='Enter email address' className='py-4 px-14 bg-white text-darkBlue rouned rounded-[56px] border-2 border-darkBlue text-xl font-normal' />
-        <button className="py-4 px-14 bg-white text-darkBlue rouned rounded-[56px] border-2 border-darkBlue text-xl font-bold ">
+        <button className="py-4 px-14 bg-white text-darkBlue rouned rounded-[56px] border-2 border-darkBlue text-xl font-bold transition-transform duration-200 transform active:scale-95">
                 Start Now
         </button>
         </div>

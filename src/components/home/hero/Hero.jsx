@@ -27,20 +27,21 @@ const Hero = () => {
           </div>
         </div>
         <div>
-          <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2  gap-y-6  px-4 lg:px-0">
-            <div className="md:col-span-2">
+          <div className="grid grid-flow-row grid-cols-2  gap-6  px-4 lg:px-0">
+            <div className="col-span-2">
               <img
                 src={frameOne}
                 alt=""
                 className="w-full"
               />
             </div>
-            <div className="hidden lg:block">
-              <img src={frameTwo} alt="" />
+            <div className="w-full rounded-3xl">
+              <img src={frameThree} className="w-full h-full " alt="" />
             </div>
-            <div className="hidden lg:block">
-              <img src={frameThree} alt="" />
+            <div className="flex justify-end rounded-3xl">
+              <img src={frameTwo} className="" alt="" />
             </div>
+            
           </div>
         </div>
       </div>

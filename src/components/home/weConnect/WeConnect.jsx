@@ -9,14 +9,14 @@ const WeConnect = () => {
   };
 
   return (
-    <section className="py-[124px]">
-      <div className="relative max-w-[1100px] mx-auto">
-        <div className="w-full mb-14">
+    <section className="py-[60px] lg:py-[124px]">
+      <div className="relative max-w-[1100px] mx-auto px-4 lg:px-0">
+        <div className="w-full mb-6 lg:mb-14">
           <img src={weconnect} alt="" className="w-full object-cover" />
         </div>
-        <div className="flex justify-between gap-[100px]">
+        <div className="flex flex-col lg:flex-row justify-between gap-10 lg:gap-[100px]">
           <div className="flex-1">
-            <h2 className="text-pureblack text-[36px] font-manrope lg:max-w-[493px]">
+            <h2 className="text-pureblack text-2xl lg:text-[36px] font-manrope lg:max-w-[493px] lg:leading-[56px]">
               We connect our customers with the best, and help them keep up-and
               stay open.
             </h2>

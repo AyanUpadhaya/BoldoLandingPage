@@ -12,9 +12,9 @@ function Home() {
     <>
       <Header></Header>
       <OurServices></OurServices>
-      {/* <ConnectSection></ConnectSection> */}
+      <ConnectSection></ConnectSection>
       <Enterprise></Enterprise>
-      {/* <WeConnect></WeConnect> */}
+      <WeConnect></WeConnect>
       <OurBlog></OurBlog>
       <CallToAction></CallToAction>
       <Footer></Footer>

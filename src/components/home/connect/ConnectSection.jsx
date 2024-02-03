@@ -2,29 +2,29 @@ import { calling, chart, chartTwo, women } from "../../../assets/getAssets";
 
 const ConnectSection = () => {
   return (
-    <div className="relative max-w-[1200px] mx-auto  ">
+    <div className="relative max-w-[1200px] mx-auto px-4 lg:px-0 ">
       {/* first */}
-      <div className="flex lg:items-end flex-col lg:flex-row justify-between gap-y-10 lg:mt-[180px] ">
+      <div className="flex lg:items-end flex-col md:flex-row justify-between gap-y-10 lg:mt-[180px] ">
         {/* left */}
-        <div className="relative w-full max-w-[494px] ">
+        <div className="relative w-full lg:max-w-[494px] ">
           <img src={calling} alt="" className="relative object-cover z-40 " />
           <img
             src={chart}
             alt=""
-            className=" absolute  -bottom-5 lg:-bottom-36 lg:right-10 z-50 shadow-md"
+            className=" absolute  -bottom-5 lg:-bottom-36 lg:right-10 z-50 shadow-md h-[280px] lg:h-full"
           />
         </div>
 
         {/* right */}
         <div className="flex flex-col items-start gap-y-10 w-full lg:max-w-[493px] px-4 lg:px-0">
-          <h2 className="text-pureblack text-[36px] font-manrope">
+          <h2 className="text-pureblack text-2xl lg:text-[36px] font-manrope">
             We connect our customers with the best, and help them keep up-and
             stay open.
           </h2>
 
           <div className="flex flex-col items-start gap-y-6">
             <div className="flex gap-x-[27px]">
-              <div className="w-[36px] h-[36px] rounded-full bg-primaryBg flex justify-center items-center">
+              <div className="flex-shrink-0 w-[36px] h-[36px] rounded-full bg-primaryBg flex justify-center items-center">
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -43,12 +43,13 @@ const ConnectSection = () => {
                   </svg>
                 </span>
               </div>
-              <h4 className="text-xl font-openSans text-pureblack">
+              <h4 className="text-lg lg:text-xl font-openSans text-pureblack">
                 We connect our customers with the best.
               </h4>
             </div>
+
             <div className="flex gap-x-[27px]">
-              <div className="w-[36px] h-[36px] rounded-full bg-primaryBg flex justify-center items-center">
+              <div className="flex-shrink-0 w-[36px] h-[36px] rounded-full bg-primaryBg flex justify-center items-center">
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -67,12 +68,13 @@ const ConnectSection = () => {
                   </svg>
                 </span>
               </div>
-              <h4 className="text-xl font-openSans text-pureblack">
+              <h4 className="text-lg lg:text-xl font-openSans text-pureblack">
                 We connect our customers with the best.
               </h4>
             </div>
+
             <div className="flex gap-x-[27px]">
-              <div className="w-[36px] h-[36px] rounded-full bg-primaryBg flex justify-center items-center">
+              <div className="flex-shrink-0 w-[36px] h-[36px] rounded-full bg-primaryBg flex justify-center items-center">
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -91,13 +93,13 @@ const ConnectSection = () => {
                   </svg>
                 </span>
               </div>
-              <h4 className="text-xl font-openSans text-pureblack">
+              <h4 className="text-lg lg:text-xl font-openSans text-pureblack">
                 We connect our customers with the best.
               </h4>
             </div>
 
             <div>
-              <button className="mt-[22px] py-4 px-14 bg-primaryBg text-white rouned rounded-[56px] border-2 border-darkBlue text-xl font-bold ">
+              <button className="mt-[22px] py-3 lg:py-4 px-6 lg:px-14 bg-primaryBg text-white rouned rounded-[56px] border-2 border-darkBlue text-xl font-bold transition-transform duration-200 transform active:scale-95">
                 Start Now
               </button>
             </div>
@@ -107,26 +109,26 @@ const ConnectSection = () => {
 
       {/* second */}
 
-      <div className="flex lg:items-end flex-col lg:flex-row-reverse justify-between gap-y-10 lg:mt-[180px] ">
+      <div className="flex lg:items-end flex-col md:flex-row-reverse justify-between gap-y-10 mt-20 lg:mt-[180px] ">
         {/* left */}
         <div className="relative w-full max-w-[494px] mb-10 ">
           <img src={women} alt="" className="relative object-cover z-40 " />
           <img
             src={chartTwo}
             alt=""
-            className=" absolute  -bottom-5 lg:-bottom-36 lg:left-10 z-50 shadow-md"
+            className=" absolute -bottom-5 lg:-bottom-36 lg:right-10 z-50 h-[280px] lg:h-[400px] shadow-md"
           />
         </div>
 
         {/* right */}
         <div className="flex flex-col items-start gap-y-10 w-full  px-4 lg:px-0">
-          <h2 className="text-pureblack text-[36px] font-manrope lg:max-w-[493px]">
+          <h2 className="text-pureblack text-2xl lg:text-[36px] font-manrope lg:max-w-[493px] lg:leading-[56px]">
             We connect our customers with the best, and help them keep up-and
             stay open.
           </h2>
 
           <div className="flex flex-col items-start gap-y-6">
-            <div className="w-[500px] rounded flex gap-x-[27px] bg-primaryBg text-white p-[24px] shadow-shadowConnect ">
+            <div className="lg:w-[500px] rounded flex gap-x-[27px] bg-primaryBg text-white p-[24px] shadow-shadowConnect ">
               <div className=" flex justify-center items-center">
                 <span>
                   <svg
@@ -165,7 +167,7 @@ const ConnectSection = () => {
               </h4>
             </div>
 
-            <div className="w-[500px] rounded flex gap-x-[27px] text-white p-[24px] shadow-shadowConnect ">
+            <div className="lg:w-[500px] rounded flex gap-x-[27px] text-white p-[24px] shadow-shadowConnect ">
               <div className=" flex justify-center items-center">
                 <span>
                   <svg
@@ -209,7 +211,7 @@ const ConnectSection = () => {
               </h4>
             </div>
 
-            <div className="w-[500px] rounded flex gap-x-[27px]  text-white p-[24px] shadow-shadowConnect ">
+            <div className="lg:w-[500px] rounded flex gap-x-[27px]  text-white p-[24px] shadow-shadowConnect ">
               <div className=" flex justify-center items-center">
                 <span>
                   <svg
@@ -299,6 +301,8 @@ const ConnectSection = () => {
           </div>
         </div>
       </div>
+
+
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import { card_one, card_two, card_three } from "../../../assets/getAssets";
 const Enterprise = () => {
   return (
-    <div className="lg:mt-[240px] bg-primaryBg ">
+    <div className="mt-[80px] lg:mt-[240px] bg-primaryBg ">
       <div className="relative max-w-[1200px] mx-auto px-4 lg:px-0 ">
         <div className="py-4 lg:py-[96px] font-manrope">
           <div className="flex justify-between items-end mb-[72px]">
@@ -11,7 +11,7 @@ const Enterprise = () => {
               </h3>
             </div>
             <div className="hidden lg:flex gap-4 items-center ">
-              <div className="w-[72px] h-[72px] bg-white rounded-full flex justify-center items-center">
+              <button className="w-[72px] h-[72px] bg-white rounded-full flex justify-center items-center transition-transform duration-200 transform active:scale-95">
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -36,8 +36,8 @@ const Enterprise = () => {
                     />
                   </svg>
                 </span>
-              </div>
-              <div className="w-[72px] h-[72px] bg-white rounded-full flex justify-center items-center">
+              </button>
+              <button className="w-[72px] h-[72px] bg-white rounded-full flex justify-center items-center transition-transform duration-200 transform active:scale-95">
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ const Enterprise = () => {
                     />
                   </svg>
                 </span>
-              </div>
+              </button>
             </div>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 items-start gap-[22px]">

@@ -2,7 +2,7 @@ import { coolfeature, coolfeatureTwo, evencooler } from "../../../assets/getAsse
 
 const OurServices = () => {
   return (
-    <div className="max-w-[1200px] mx-auto relative z-[100]  py-[84px] ">
+    <div className="max-w-[1200px] mx-auto relative z-[100] py-[60px] lg:py-[84px] ">
       {/* top */}
       <div className="max-w-[842px] mx-auto px-4 mb-8 lg:mb-20">
         <h4 className="font-openSans font-normal text-xl text-gray lg:leading-8 text-center mb-3">

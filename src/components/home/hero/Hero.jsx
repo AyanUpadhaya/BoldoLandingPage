@@ -13,7 +13,7 @@ const Hero = () => {
     <div className="max-w-[1200px] relative z-[100] mx-auto ">
       <div className="flex flex-col lg:flex-row gap-y-6 justify-between lg:items-center mb-[56px]">
         <div className="flex-1 max-w-full md:max-w-[567px] px-4 lg:px-0">
-          <h2 className="head-title text-3xl lg:text-[36px] mb-4 leading-[40px] lg:leading-[72px]">
+          <h2 className="text-3xl head-title  lg:text-[48px] mb-4 leading-[40px] lg:leading-[72px]">
             Save time by building fast with Boldo Template
           </h2>
           <p className="desc mb-5 lg:mb-10">

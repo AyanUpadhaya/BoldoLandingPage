@@ -49,10 +49,7 @@ line-height: 28px; /* 175% */
 		padding: 12px 24px;
 		font-size: 16px;
 	}
-	.head-title{
-		font-size: 36px;
-		line-height: normal; /* 150% */
-	}
+	
 	.desc{
 		font-size: 14px;
 		line-height: normal;

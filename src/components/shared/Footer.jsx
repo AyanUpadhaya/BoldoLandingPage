@@ -56,8 +56,8 @@ const menusData = [
 
 const Footer = () => {
   return (
-    <section className="w-full py-[100px]">
-      <div className="max-w-[1200px] mx-auto flex items-stretch gap-[179px] justify-between">
+    <section className="w-full py-10 lg:py-[100px]">
+      <div className="px-4 lg:px-0 max-w-[1200px] mx-auto flex flex-col md:flex-row items-stretch gap-[50px] md:gap-[80px] lg:gap-[179px] justify-between">
         {/* left */}
         <div className="w-full max-w-[300px]">
           <div className="mb-10">
@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
 
         {/* right */}
-        <div className="flex-1 flex gap-[96px] items-start">
+        <div className="flex-1 flex flex-col md:flex-row gap-10 lg:gap-[96px] items-start">
           {/* menus */}
           {menusData.map((menu, index) => {
             return (

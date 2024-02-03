@@ -14,10 +14,10 @@ function Home() {
       <OurServices></OurServices>
       {/* <ConnectSection></ConnectSection> */}
       <Enterprise></Enterprise>
-      {/* <WeConnect></WeConnect>
+      {/* <WeConnect></WeConnect> */}
       <OurBlog></OurBlog>
       <CallToAction></CallToAction>
-      <Footer></Footer>  */}
+      <Footer></Footer>
     </>
   );
 }

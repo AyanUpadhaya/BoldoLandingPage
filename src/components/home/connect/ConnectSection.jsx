@@ -17,7 +17,7 @@ const ConnectSection = () => {
 
         {/* right */}
         <div className="flex flex-col items-start gap-y-10 w-full lg:max-w-[493px] px-4 lg:px-0">
-          <h2 className="text-pureblack text-2xl lg:text-[36px] font-manrope">
+          <h2 className="text-pureblack text-2xl lg:text-[36px] font-manrope lg:leading-[56px]">
             We connect our customers with the best, and help them keep up-and
             stay open.
           </h2>

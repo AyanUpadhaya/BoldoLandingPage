@@ -8,7 +8,7 @@ const OurServices = () => {
         <h4 className="font-openSans font-normal text-xl text-gray lg:leading-8 text-center mb-3">
           Our Services
         </h4>
-        <h2 className="text-pureblack font-manrope text-[1.2rem] md:text-5xl text-center lg:eading-[72px]">
+        <h2 className="text-pureblack font-manrope text-3xl lg:text-5xl text-center lg:eading-[72px]">
           Handshake infographic mass market crowdfunding iteration.
         </h2>
       </div>

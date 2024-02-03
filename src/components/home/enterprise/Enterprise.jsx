@@ -73,11 +73,7 @@ const Enterprise = () => {
                   agreement business”
                 </p>
                 <div className="flex gap-3 items-center">
-                  <img
-                    src="/src/assets/images/card_one.png"
-                    alt=""
-                    className="w-8 h-8 rounded-full"
-                  />
+                  <img src={card_one} alt="" className="w-8 h-8 rounded-full" />
                   <div className="flex flex-col gap-[6px] font-openSans">
                     <h4 className="text-darkBlue font-bold font-openSans">
                       Albus Dumbledore
@@ -94,11 +90,7 @@ const Enterprise = () => {
                   strategy user experience hypotheses investor.”
                 </p>
                 <div className="flex gap-3 items-center">
-                  <img
-                    src="/src/assets/images/card_two.png"
-                    alt=""
-                    className="w-8 h-8 rounded-full"
-                  />
+                  <img src={card_two} alt="" className="w-8 h-8 rounded-full" />
                   <div className="flex flex-col gap-[6px] font-openSans">
                     <h4 className="text-darkBlue font-bold font-openSans">
                       Severus Snape
@@ -116,7 +108,7 @@ const Enterprise = () => {
                 </p>
                 <div className="flex gap-3 items-center">
                   <img
-                    src="/src/assets/images/card_three.png"
+                    src={card_three}
                     alt=""
                     className="w-8 h-8 rounded-full"
                   />

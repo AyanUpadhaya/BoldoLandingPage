@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="text-white">
         <div className="max-w-[1200px] relative z-[100] mx-auto flex items-center justify-between px-4 xl:px-0">
           <img
-            src="/src/assets/images/Logo.png"
+            src={logo}
             alt=""
             className="object-cover"
           />
